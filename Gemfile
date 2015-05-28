@@ -21,6 +21,8 @@ gem 'jbuilder', '~> 2.0'
 
 gem 'bower-rails'
 
+gem 'angular-rails-templates'
+
 gem 'foreman'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', require: false, group: :doc
@@ -40,6 +42,8 @@ group :development, :test do
   gem 'capybara'
   gem 'database_cleaner'
   gem 'selenium-webdriver'
+  gem 'teaspoon-jasmine'
+  gem 'phantomjs'
 end
 
 group :production, :staging do

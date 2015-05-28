@@ -25,6 +25,7 @@ module Receta
 
     config.assets.precompile << %r(.*.(?:eot|svg|ttf|woff|woff2)$)
 
+    config.angular_templates.ignore_prefix = %w(assets/templates/)
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
   end
